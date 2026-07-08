@@ -86,6 +86,28 @@ a {
   text-decoration: none;
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.language-switch a {
+  padding: 4px 7px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.language-switch a[aria-current="page"] {
+  background: var(--ink);
+  color: #fff;
+}
+
 .button,
 button {
   display: inline-flex;
@@ -392,6 +414,15 @@ textarea {
     display: none;
   }
 
+  .nav-links .language-switch,
+  .nav-links .top-cta {
+    display: inline-flex;
+  }
+
+  .language-switch a {
+    display: inline-flex;
+  }
+
   .hero,
   .builder,
   .cta-band {
@@ -416,9 +447,26 @@ textarea {
 }
 
 @media (max-width: 560px) {
+  .nav {
+    gap: 8px;
+    width: min(100% - 20px, 1160px);
+  }
+
+  .brand span:last-child {
+    display: none;
+  }
+
+  .nav-links {
+    gap: 8px;
+  }
+
+  .language-switch a {
+    padding-inline: 5px;
+  }
+
   .top-cta {
-    min-width: 156px;
-    padding-inline: 12px;
+    min-width: auto;
+    padding-inline: 10px;
     font-size: 14px;
   }
 
@@ -436,4 +484,3 @@ textarea {
     padding: 42px 0;
   }
 }
-

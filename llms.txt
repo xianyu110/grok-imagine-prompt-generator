@@ -1,0 +1,12 @@
+# Imagine Prompt Lab
+
+Independent multilingual Grok AI resource.
+
+Canonical: https://xianyu110.github.io/grok-imagine-prompt-generator/
+Languages: en-US, zh-CN, ja
+Primary CTA: https://trygrokai.asia/list/
+
+Key pages:
+- English: https://xianyu110.github.io/grok-imagine-prompt-generator/
+- Chinese: https://xianyu110.github.io/grok-imagine-prompt-generator/zh-cn/
+- Japanese: https://xianyu110.github.io/grok-imagine-prompt-generator/ja/
